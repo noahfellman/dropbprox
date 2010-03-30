@@ -9,7 +9,7 @@ Last modified on %%mtime(%c)
 %!postproc: URL_BRETT_SLATKIN http://www.onebigfluke.com/
 
 = Summary =
-A GAE proxy to your Dropbox account
+**A GAE proxy to your Dropbox account.**
 
 = Description =
 The DropbProx aims to allow you to use your own domain to get files published in your [Dropbox URL_DROPBOX]. So, after setting up your Dropbox account number at the application and publish it on Google App Engine (GAE), you will access your files in the Dropbox linking them to a more significant domain than that presented by URL ``http://dl.dropbox.com/u/YOURDROPBOXNUMBER``.
@@ -34,3 +34,5 @@ I was looking for a FREE alternative to the problem described above. That's beca
 - Instead of access your files using the Dropbox URL (``http://dl.dropbox.com/u/YOURDROPBOXNUMBER``) you can now use the GAE application URL.
   - In my case, instead of access files at ``http://dl.dropbox.com/u/345266``, I can now do that using ``http://a.paulojeronimo.com``. For example, the files http://dl.dropbox.com/u/345266/curriculo/curriculo-pj.html and http://a.paulojeronimo.com/curriculo/curriculo-pj.html (my portuguese resume ;-) are the same, but the second is much more expressive, isn't it?
 - Update a file in your Dropbox account and refresh your URL. You will see that was updated in your proxy too!
+
+
